@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WSCube Tech Clone</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container-fluid py-2">
+      <div class="container headContainer">
+        <div class="row justify-content-between headInnerCon">
+          <figure class="logo col-lg-6 text-lg-start text-md-start text-center">
+            <img src="./images/Logo.svg" alt="Logo" />
+          </figure>
+          <div
+            class="col-lg-6 d-flex align-items-center justify-content-end gap-3 headBtnCon"
+          >
+            <button
+              class="btn bg-transparent btn-outline-success border-2 text-success text-capitalize whatsAppBtn"
+            >
+              <i class="fa-brands fa-whatsapp"></i> Chat with us
+            </button>
+            <div class="btn align-self-center callBtn border-0">Call Us</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="container-fluid mt-5">
+      <div class="container">
+        <div class="row hero-row">
+          <div class="col">
+            <h1 class="hero-heading fw-bold">
+              Career Opportunities in
+              <span class="text-primary">Digital Marketing</span>
+            </h1>
+            <p class="fs-5">
+              Digital marketing course so good,you only pay-after-placement
+            </p>
+            <div class="fs-5">
+              <div class="row1 d-flex gap-3">
+                <img src="./images/Frame.png" alt="frame" class="w-12 h-50" />
+                Specialization: Performance Marketing
+              </div>
+              <div class="row1 d-flex gap-3">
+                <img src="./images/Frame.png" alt="frame" class="w-12 h-50" />
+                Min salary of Rs 4.5 LPA
+              </div>
+              <div class="row1 d-flex gap-3">
+                <img src="./images/Frame.png" alt="frame" class="w-12 h-50" />
+                50 seats only
+              </div>
+            </div>
+            <div class="buttons mt-5 d-flex gap-4">
+              <button class="btn border hero-Btn fs-5 heroBtn border-0">
+                Book 2 Days Demo
+              </button>
+              <button class="btn border fs-5 shadow-sm heroBtn">
+                <i class="fa-solid fa-download"></i> Download Curriculum
+              </button>
+            </div>
+          </div>
+          <div class="col-md-5 border shadow-sm p-5 formContainer rounded mb-3">
+            <h3 class="fw-bold formHeading">Book Your Free Class Now!</h3>
+            <p class="formText">
+              2 days of free demo classes without paying in advance!
+            </p>
+            <form class="d-flex flex-column gap-1 formCon">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile number</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">+92</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your phone number"
+                    aria-label="number"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+              <button class="btn registerBtn border-0">Register Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- batch info -->
+    <section class="container-fluid mt-5 mb-5">
+      <div
+        class="container shadow-lg px-4 py-4 pb-2 rounded mb-3 infoContainer"
+      >
+        <div
+          class="row row-cols-md-3 row-cols-sm-2 row-cols-1 row-cols-lg-5 justify-content-center"
+        >
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-3 text-primary fw-bold lh-sm info-heading">1000+</h3>
+            <p class="text-capitalize infoText">Students trained</p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-3 text-primary fw-bold lh-sm info-heading">
+              Rs 4.5 LPA
+            </h3>
+            <p class="text-capitalize infoText">Students trained</p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-3 text-primary fw-bold lh-sm info-heading">320+</h3>
+            <p class="text-capitalize infoText">Recruiting Partners</p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-3 text-primary fw-bold lh-sm info-heading">
+              10:00 am
+            </h3>
+            <p class="text-capitalize infoText">Program Timing</p>
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-3 text-primary fw-bold lh-sm info-heading">
+              11th May
+            </h3>
+            <p class="text-capitalize infoText">Next Batch Starts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- course highlight section -->
+    <section class="highlight-section container-fluid mt-5 mb-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-capitalize highlight-heading fw-bold">
+              Key highlight of the course
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #e9f8ff"
+              >
+                <img
+                  src="./images/Paper.png"
+                  alt="paperIcon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  Assignments & Modules tests
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  Test your knowledge
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #fdf4ef"
+              >
+                <img
+                  src="./images/Star.png"
+                  alt="star Icon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  Industry-recognized Certification
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  Stand out to your professional
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #fbf0fd"
+              >
+                <img
+                  src="./images/Video.png"
+                  alt="video Icon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  Live classes & recorded lectures
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  Best of both worlds of learning
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #f0fcf7"
+              >
+                <img
+                  src="./images/Download.png"
+                  alt="download Icon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  Downloadable Content
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  With lifetime access
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #f1f1fc"
+              >
+                <img
+                  src="./images/Document.png"
+                  alt="document Icon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  6 Industry level projects
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  Get practical skills
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12">
+            <div class="row bg-white shadow-sm rounded mb-3 p-3 mx-0">
+              <div
+                class="col-3 d-flex justify-content-center rounded mb-3 p-2"
+                style="background-color: #fcefef"
+              >
+                <img
+                  src="./images/Chat.png"
+                  alt="chat Icon"
+                  class="align-self-center paper-icon fs-1"
+                />
+              </div>
+              <div class="col-9 lh-1">
+                <h3 class="fw-semibold fs-5" style="color: #0a2134">
+                  4 Live Doubt clearing Session
+                </h3>
+                <p class="mb-0" style="color: #43505b; font-size: 15px">
+                  Gain a clear understanding
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center">
+            <button class="btn text-capitalize free-class-btn border-0">
+              Book free class
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- courses section -->
+    <section class="container-fluid my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="courses-heading heading3 fw-bold">
+              Top career options in <br />
+              Digital Marketing
+            </h1>
+            <p style="font-size: 18px; color: #0a2134" class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+              pharetra.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row gap-5 px-4 row-cols-1 row-cols-lg-5 justify-content-center justify-content-lg-between justify-content-md-center row-cols-md-3 row-cols-sm-1"
+        >
+          <div class="col shadow-sm rounded p-3" style="color: #0a2134">
+            <div
+              class="icon border p-2 shadow-sm rounded mb-3 d-flex justify-content-center"
+              style="width: 60px"
+            >
+              <img src="./images/Edit Square.png" alt="pencil icon" />
+            </div>
+            <h3 style="font-size: 18px" class="fw-semibold mb-2">
+              Content Marketer
+            </h3>
+            <p style="font-size: 15px">
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+          <div class="col shadow-sm rounded p-3" style="color: #0a2134">
+            <div
+              class="icon border p-2 shadow-sm rounded mb-3 d-flex justify-content-center"
+              style="width: 60px"
+            >
+              <img src="./images/Search.png" alt="pencil icon" />
+            </div>
+            <h3 style="font-size: 18px" class="fw-semibold mb-2">
+              SEO Specialist
+            </h3>
+            <p style="font-size: 15px">
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+          <div class="col shadow-sm rounded p-3" style="color: #0a2134">
+            <div
+              class="icon border p-2 shadow-sm rounded mb-3 d-flex justify-content-center"
+              style="width: 60px"
+            >
+              <img src="./images/3 User.png" alt="pencil icon" />
+            </div>
+            <h3 style="font-size: 18px" class="fw-semibold mb-2">
+              Social Media Manager
+            </h3>
+            <p style="font-size: 15px">
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+          <div class="col shadow-sm rounded p-3" style="color: #0a2134">
+            <div
+              class="icon border p-2 shadow-sm rounded mb-3 d-flex justify-content-center"
+              style="width: 60px"
+            >
+              <img src="./images/Activity.png" alt="pencil icon" />
+            </div>
+            <h3 style="font-size: 18px" class="fw-semibold mb-2">
+              Marketing Analyst
+            </h3>
+            <p style="font-size: 15px">
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification section -->
+    <section class="container-fluid my-5" style="background-color: #f7faff">
+      <div class="container py-5">
+        <div class="row py-3 gap-5 certificate-container">
+          <div class="col">
+            <h4
+              class="fw-bold get-certified"
+              style="font-size: 36px; color: #0a2134"
+            >
+              Get Certified
+            </h4>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+            <div class="element-container d-flex flex-column gap-4">
+              <div class="bg-white rounded px-4 py-3 shadow-sm">
+                <div class="row align-items-center gap-3">
+                  <div class="col">
+                    <img src="./images/Ticket Star.png" alt="" />
+                  </div>
+                  <div class="col-10">
+                    <h3
+                      class="text-capitalize fs-5 fw-semibold"
+                      style="color: #0a2134"
+                    >
+                      Official and verified
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Imperdiet tellus
+                      ut ornare pharetra leo vestibulum at orci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white rounded px-4 py-3 shadow-sm">
+                <div class="row align-items-center gap-3">
+                  <div class="col">
+                    <img
+                      src="./images/Send.png"
+                      alt=""
+                      style="width: 48px; height: 48px"
+                    />
+                  </div>
+                  <div class="col-10">
+                    <h3
+                      class="text-capitalize fs-5 fw-semibold"
+                      style="color: #0a2134"
+                    >
+                      Easily shareable
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Imperdiet tellus
+                      ut ornare pharetra leo vestibulum at orci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white rounded px-4 py-3 shadow-sm">
+                <div class="row align-items-center gap-3">
+                  <div class="col">
+                    <img
+                      src="./images/Activity(2).png"
+                      alt=""
+                      style="width: 48px; height: 48px"
+                    />
+                  </div>
+                  <div class="col-10">
+                    <h3
+                      class="text-capitalize fs-5 fw-semibold"
+                      style="color: #0a2134"
+                    >
+                      Career shifting
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Imperdiet tellus
+                      ut ornare pharetra leo vestibulum at orci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn text-capitalize free-class-btn mt-5 border-0">
+              Book free class
+            </button>
+          </div>
+          <div class="col p-4 bg-white d-flex justify-content-center rounded">
+            <img src="images/Certificate.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Digital marketing course curriculum -->
+    <section class="container-fluid my-5">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col d-flex flex-column align-items-center">
+            <h1 class="fw-bold text-center digital-curriculum-heading heading3">
+              Curriculum of <br />
+              Our Digital Marketing
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+              pharetra.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4 text-truncate flex-nowrap">
+          <div class="col text-center">
+            <h5
+              class="fw-semibold p-3 border-bottom-primary border-bottom border-3 border-primary"
+              style="font-size: 18px; color: #0a2134; background: #f2f4f7"
+            >
+              Introduction
+            </h5>
+          </div>
+          <div class="col text-center">
+            <h5 class="p-3" style="font-size: 18px; color: #43505b">
+              Case Studies
+            </h5>
+          </div>
+          <div class="col text-center">
+            <h5 class="p-3" style="font-size: 18px; color: #43505b">
+              Case Studies
+            </h5>
+          </div>
+          <div class="col text-center">
+            <h5 class="p-3" style="font-size: 18px; color: #43505b">
+              Google AdSense
+            </h5>
+          </div>
+          <div class="col text-center">
+            <h5 class="p-3" style="font-size: 18px; color: #43505b">
+              SEO Mastery
+            </h5>
+          </div>
+          <div class="col text-center">
+            <h5 class="p-3" style="font-size: 18px; color: #43505b">
+              Google Analytics
+            </h5>
+          </div>
+        </div>
+        <div
+          class="row shadow rounded my-3 px-3 py-5 row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-1"
+        >
+          <div class="col d-flex flex-column gap-3">
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              What is Digital Marketing?
+            </div>
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Requirement of Digital Marketing
+            </div>
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Digital Marketing for Working Professionals
+            </div>
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Job opportunities in Digital Marketing
+            </div>
+          </div>
+          <div class="col d-flex flex-column gap-3">
+            <div
+              class="frame d-flex gap-3 mt-3 mt-lg-0 mt-md-0 mt-sm-3"
+              style="font-size: 22px"
+            >
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Scope of Digital Marketing
+            </div>
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Latest Trends in Digital Marketing
+            </div>
+            <div class="frame d-flex gap-3" style="font-size: 22px">
+              <img src="./images/Frame2.png" alt="frame" class="list-icon" />
+              Digital Marketing for Small, Medium, and large businesses
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col d-flex justify-content-center">
+            <button class="download-curriculum-btn btn border-0">
+              Download Curriculum
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why digital marketing section -->
+    <section class="container-fluid my-5 py-5" style="background: #f7faff">
+      <div class="container">
+        <div class="row">
+          <div class="col" style="color: #0a2134">
+            <h2 class="fw-bold why-learn-digital" style="font-size: 36px">
+              Why Learn Digital Marketing
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-1 gap-3 justify-content-center"
+          style="color: #0a2134"
+        >
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (0).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">Learn From Industry Experts</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (1).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">Structured & Latest Curriculum</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (2).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">Highly-Engaging Live Classes</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (3).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">Work on Real Projects</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (4).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">100% Job Assistance</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+          <div
+            class="col bg-white p-4 rounded shadow-sm d-flex flex-column gap-2 marketing-frame-box"
+            style="width: 32%"
+          >
+            <img src="./images/Frame (5).png" alt="" class="frame-icon" />
+            <h5 class="fs-5 fw-semibold">Get Certification</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Vitae suspendisse
+              pellentesque amet porttitor facilisis dignissim felis.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <button class="btn text-capitalize free-class-btn mt-5 border-0">
+              Book free class
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials section -->
+    <section class="container-fluid my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3 class="heading3">
+              What Our Students <br />
+              Are Saying!
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+              pharetra.
+            </p>
+          </div>
+        </div>
+        <div class="row gap-4 mt-4 row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 justify-content-between">
+          <div class="col rounded shadow px-5 py-4 testimonial-box" style="width: 48%;">
+            <div class="row align-items-center gap-3">
+              <div class="col-1 pic-frame"></div>
+              <div class="col">
+                <h6 class="fs-5 fw-semibold">Matt Cannon</h6>
+                <p style="font-size: 15px">September 1, 2023</p>
+              </div>
+            </div>
+            <div class="row pt-2 gx-0">
+              <p style="font-size: 18px">
+                Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id
+                turpis donec et morbi. Sit eu nisl non scelerisque vestibulum
+                pulvinar. Condimentum massa bibendum pretium tincidunt sed vel.
+              </p>
+            </div>
+          </div>
+          <div class="col rounded shadow px-5 py-4 testimonial-box" style="width: 48%;">
+            <div class="row align-items-center gap-3">
+              <div
+                class="col-1 pic-frame"
+                style="
+                  background-image: url(&quot;./images/person\ 2.png&quot;);
+                "
+              ></div>
+              <div class="col">
+                <h6 class="fs-5 fw-semibold">Matt Cannon</h6>
+                <p style="font-size: 15px">September 1, 2023</p>
+              </div>
+            </div>
+            <div class="row pt-2 gx-0">
+              <p style="font-size: 18px">
+                Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id
+                turpis donec et morbi. Sit eu nisl non scelerisque vestibulum
+                pulvinar. Condimentum massa bibendum pretium tincidunt sed vel.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row ready-course p-5 rounded-3">
+          <div class="col text-center">
+            <h1 class="heading3 text-white">
+              Are You Ready To Start <br />
+              Your Course?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id
+              turpis donec et morbi.
+            </p>
+            <button
+              class="btn text-capitalize fs-5 fw-bold bg-white px-4 py-2"
+              style="color: #0a2134"
+            >
+              Book free class
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- course FAQ section -->
+    <section class="container-fluid mt-5" style="background: #f7faff">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col text-center">
+            <h3 class="heading3">Digital Marketing Course <br> FAQs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+          </div>
+        </div>
+        <div class="row mt-4 flex-column align-items-center gap-3">
+          <div class="col-12 col-lg-7 col-md-10 col-sm-12 bg-white rounded p-3 border border-1 border-primary">
+            <div class="question d-flex justify-content-between align-items-center">
+              <p class="fw-semibold text-primary">What is website development?</p>
+              <div class="stroke"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Mattis id rhoncus non fermentum quam duis faucibus blandit. Non suscipit quis sed et mus nisl lacinia massa. Dignissim in adipiscing amet nisi eu semper augue. Amet dignissim blandit mi amet felis et malesuada. Sit.</p>
+          </div>
+          <div class="col-12 col-lg-7 col-md-10 col-sm-12 bg-white rounded p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="fw-semibold align-self-center mb-0">What is website development?</p>
+              <img src="./images/Plus.png" alt="plus" width="15px">
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 col-md-10 col-sm-12 bg-white rounded p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="fw-semibold align-self-center mb-0">What is website development?</p>
+              <img src="./images/Plus.png" alt="plus" width="15px">
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 col-md-10 col-sm-12 bg-white rounded p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="fw-semibold align-self-center mb-0">What is website development?</p>
+              <img src="./images/Plus.png" alt="plus" width="15px">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <button class="btn text-capitalize free-class-btn mt-5 border-0">
+              Book free class
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <section class="container-fluid p-4 footer-section" style="background-color: #0A2540;">
+      <div class="container text-center">
+        <p class="text-white m-0">All rights reserved by <a href="https://muhammadkhurramanis.vercel.app/" target="_blank" class="text-white">Muhammad Khurram Anis</a></p>
+      </div>
+    </section>
+  </body>
+  <!-- JavaScript Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+</html>

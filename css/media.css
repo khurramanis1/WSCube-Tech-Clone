@@ -1,0 +1,90 @@
+@media (max-width: 1199px) {
+    .certificate-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 991px) {
+    .headContainer {
+        padding: 10px;
+        margin: 10px;
+        justify-content: space-between;
+    }
+    .headInnerCon {
+        display: flex;
+        flex-direction: row;
+    }
+    .hero-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formContainer {
+        width: 95%;
+        max-width: 450px;
+    }
+    .infoContainer {
+        min-width: 95%;
+    }
+    /* why digital marketing section */
+    .marketing-frame-box {
+        width: 48% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .headBtnCon {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        translate: calc(50%, -50%);
+        background: #fff;
+        padding: 15px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .whatsAppBtn, .callBtn {
+        width: 45%;
+        font-size: 14px;
+        padding: 10px 0;
+        
+    }
+    .hero-heading {
+        font-size: 36px;
+    }
+    .get-certified {
+        font-size: 30px !important;
+    }
+    .hero-row .buttons .heroBtn {
+        padding: 10px 20px;
+        font-size: 16px !important;
+    }
+    .digital-curriculum-heading, .heading3 {
+        font-size: 36px !important;
+    }
+    .why-learn-digital {
+        text-align: center;
+    }
+    .testimonial-box {
+        width: 100% !important;
+    }
+    .free-class-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+    .footer-section {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 530px) {
+    .marketing-frame-box {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 483px) {
+    .hero-row .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
